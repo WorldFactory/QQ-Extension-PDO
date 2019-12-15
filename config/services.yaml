@@ -1,0 +1,7 @@
+services:
+  qq.runner.pdo:
+    parent: qq.runner.abstract
+    class: WorldFactory\QQ\Extensions\Pdo\Services\PDORunner
+    arguments: ["%qq.pdo%"]
+    tags:
+      - { name: qq.runner, type: "pdo" }

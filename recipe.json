@@ -1,0 +1,12 @@
+{
+  "recipe":  {
+    "type": "cookbook",
+    "version": "1"
+  },
+  "actions": [
+    {
+      "type": "install-symfony-bundle",
+      "class": "WorldFactory\\QQ\\Extensions\\Pdo\\QQExtensionsPdoBundle"
+    }
+  ]
+}

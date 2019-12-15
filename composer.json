@@ -1,0 +1,15 @@
+{
+    "name": "worldfactory/qq-extension-pdo",
+    "license": "MIT",
+    "type": "library",
+    "description": "Extends QQ with PDO functionalities.",
+    "require": {
+        "php": "^7.2",
+        "worldfactory/qq": "^2.0",
+        "worldfactory/cookbook": ">=0.3",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {"WorldFactory\\QQ\\Extensions\\Pdo\\": "src/"}
+    }
+}
