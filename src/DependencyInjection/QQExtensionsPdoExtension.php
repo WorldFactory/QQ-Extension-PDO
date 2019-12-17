@@ -23,7 +23,8 @@ class QQExtensionsPdoExtension extends Extension
             new FileLocator(__DIR__.'/../../config')
         );
 
-        $loader->load('*.yaml');
+        $loader->load('config.yaml');
+        $loader->load('services.yaml');
     }
 
     protected function buildConfiguration(array $configs, ContainerBuilder $container)
